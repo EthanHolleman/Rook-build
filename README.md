@@ -25,13 +25,16 @@ In the future I'm guessing equivalent AliExpress couplings will be added to the 
 
 #### Raspberry Pi
 
-I am planning on using Klipper running on a RPi Zero V2. This was
-my first Klipper install and so I mostly followed the videos
-[provided by Rolohaun](https://www.youtube.com/watch?v=OmBIHB9TFgc&t=314s). 
-Follow his instructions as provided. 
+The Rpi hosts the Klipper web interface and API.
+I am planning on using Klipper running on a RPi Zero V2. I followed the installation
+guide [provided by Rolohaun](https://www.youtube.com/watch?v=OmBIHB9TFgc&t=314s)
+pretty much to the letter and got my MainSail interface running without
+a problem
 
 #### Mainboard
 
-Follow [part II of Rolohuan's Klipper installation guide](https://www.youtube.com/watch?v=-SYqTW7wJTo)
+Follow [part II of Rolohuan's Klipper installation guide](https://www.youtube.com/watch?v=-SYqTW7wJTo). The firmware
+build will be specific to the mainboard that you have selected. I have decided to use the Makerbase
+MKS Robin E3 V1.1 mainboard. 
 
 
