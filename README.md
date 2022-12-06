@@ -20,3 +20,14 @@ After I made my order I and looking at the CAD files more closely I realized the
 hardware specified for attaching the Z axis lead screws to the stepper motors. So I
 ended up ordering [this flexible couplings from amazon](https://www.amazon.com/AFUNTA-Flexible-Couplings-Compatible-Machines/dp/B07JL1QYLS/ref=sr_1_4?crid=4MQ82V5BYPGQ&keywords=flexible+couplings+5mm+to+8mm&qid=1670003750&s=industrial&sprefix=Flexible+Couplings+%2Cindustrial%2C145&sr=1-4).
 In the future I'm guessing equivalent AliExpress couplings will be added to the BOM.
+
+## Software
+
+### Klipper installation
+
+I am planning on using Klipper running on a RPi Zero V2. This was
+my first Klipper install and so I mostly followed the videos
+[provided by Rolohaun](https://www.youtube.com/watch?v=OmBIHB9TFgc&t=314s). 
+Follow his instructions as provided. 
+
+
