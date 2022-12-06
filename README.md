@@ -11,8 +11,6 @@ can be discovered by others who might want to build this printer.
 
 ## Part ordering
 
-### 11/28/22
-
 Went through the Rook [BOM](https://docs.google.com/spreadsheets/d/1oHDEvndkkvPFOBis4atrHRHK_DMTvttFUFWDg2He6To/edit#gid=0) and
 ordered everything specified pretty much using all the provided AliExpress links. 
 
