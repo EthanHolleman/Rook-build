@@ -31,10 +31,31 @@ guide [provided by Rolohaun](https://www.youtube.com/watch?v=OmBIHB9TFgc&t=314s)
 pretty much to the letter and got my MainSail interface running without
 a problem
 
-#### Mainboard
+#### Klipper and MainSail installation
 
 Follow [part II of Rolohuan's Klipper installation guide](https://www.youtube.com/watch?v=-SYqTW7wJTo). The firmware
 build will be specific to the mainboard that you have selected. I have decided to use the Makerbase
 MKS Robin E3 V1.1 mainboard. 
+
+#### Configuration file creation**
+
+Each printer will require a configuration file that is specific to both the printer itself and the mainboard
+being used to control it. This file communicates which pins on the mainboard does what to
+the computer that is actually controlling the motion of the printer. It also
+communicates the "species" of motion system (cartesian, corexy, delta) as the same inputs would
+provide very different results if sent to each of these different systems.
+
+In order to create this file for the Rook + MKS Robin E3 V1.1 I will be using I started by opening
+both the configuration file provided by Rolohaun for the [Rook + SKR Mini E3 v3](https://github.com/rolohaun/Rook/blob/main/Klipper%20Config/SKR%20Mini%20E3%20v3%20Config/printer.cfg) and the configuration file provided from the Klipper GitHub for
+the generic [MKS Robin E3 mainboard](https://github.com/Klipper3d/klipper/blob/master/config/generic-mks-robin-e3.cfg) and started
+mashing them together. Basically this meant opening both files in side-by-side windows in VS code, identifying
+the differences between the files that **did not** relate to the mainboard pinout and manually merging
+into one hybrid document that has the pinout specific to the MKS Robin E3 mainboard but the motion system
+parameters for the Rook.
+
+Ultimately that process resulted in [this configuration file](https://github.com/EthanHolleman/Rook-build/blob/main/Klipper%20Config/MKRobinE3V1.1/rook/rook-mks-robin-e3.cfg)
+
+
+
 
 
