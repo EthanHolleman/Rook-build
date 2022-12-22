@@ -71,6 +71,34 @@ Pico hosting a local wifi network. Then when I need to connect to the Mainsail i
 and / or work on the Raspberry Pi Zero running Klipper for the Rook I connect
 to this local network from my labtop. 
 
+Code I am using for the access point is below.
+
+```python
+import socket
+import network
+from machine import Pin
+import time
+
+ssid = "YOUR SSID"
+password = "YOUR PASSWORD"
+led = Pin("LED", Pin.OUT)
+
+ap = network.WLAN(network.AP_IF)
+ap.config(essid=ssid, password=password) 
+ap.active(True)
+
+print("Access point active")
+print(ap.ifconfig())
+
+while True:
+    if ap.active() == True:
+        led.on()
+    else:
+        led.off()
+        
+    time.sleep(0.1)
+```
+
 - TODO: Create mount for Pico that attaches to printer frame and find a 5V pin
 on the mainboard that can be used to power the Pico.
 
