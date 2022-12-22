@@ -99,6 +99,10 @@ while True:
     time.sleep(0.1)
 ```
 
+I then setup my RPi Zero that is actually running klipper to connect to this network when it boots up.
+You can use [this guide](https://www.tomshardware.com/reviews/raspberry-pi-headless-setup-how-to,6028.html) to
+configure headlesss SSH access.
+
 - TODO: Create mount for Pico that attaches to printer frame and find a 5V pin
 on the mainboard that can be used to power the Pico.
 
