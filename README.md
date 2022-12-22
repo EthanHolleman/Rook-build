@@ -55,7 +55,24 @@ parameters for the Rook.
 
 Ultimately that process resulted in [this configuration file](https://github.com/EthanHolleman/Rook-build/blob/main/Klipper%20Config/MKRobinE3V1.1/rook/rook-mks-robin-e3.cfg)
 
+#### Local acccess point
 
+Part of the appeal of the Rook to me is its small size which allows it to be extremely portable.
+One challenge I anticipate of bringing this thing around to new places is that
+there is no physical interface for controling the machine; everything is depedent on being
+able to access the Klipper Mainsail interface. This means that the machine needs to be
+connected to wifi so I can use a labtop on the same network 
+or other device to access the Mainsail interface. This would be problematic in locations
+where there is poor or no access to a local network. 
+
+To get around this I am using a Raspberry Pi Pico W as a local access point. Following
+[this guide](https://www.recantha.co.uk/blog/?p=21398) from Michael Horne I got my
+Pico hosting a local wifi network. Then when I need to connect to the Mainsail interface
+and / or work on the Raspberry Pi Zero running Klipper for the Rook I connect
+to this local network from my labtop. 
+
+- TODO: Create mount for Pico that attaches to printer frame and find a 5V pin
+on the mainboard that can be used to power the Pico.
 
 
 
