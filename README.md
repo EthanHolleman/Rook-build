@@ -33,8 +33,6 @@ a problem
 
 #### Mainboard
 
-Follow [part II of Rolohuan's Klipper installation guide](https://www.youtube.com/watch?v=-SYqTW7wJTo). The firmware
-build will be specific to the mainboard that you have selected. I have decided to use the Makerbase
-MKS Robin E3 V1.1 mainboard. 
-
+Follow [part II of Rolohuan's Klipper installation guide](https://www.youtube.com/watch?v=-SYqTW7wJTo). The firmware build will be specific to the mainboard that you have selected. I have decided to
+use the SKR E3 V3 because this is the board used by Rolohaun in his build. 
 
