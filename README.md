@@ -189,7 +189,7 @@ And with that my Rook build was complete. I really enjoyed putting this machine 
 3D printers and the mechanics that allow them to function.
 
 
-![](images/IMG_2869.MOV.gif)
+[Video of first print](https://www.youtube.com/watch?v=ggh4lNVPjAo)
 
 I posted my Rook to Rolohan's discord server and officially received serial number 27! So this is the 28th Rook to exist in the world (counting starts at 0). Overall this was a very fun project and I would
 recommend Rook to anyone looking to try out building
