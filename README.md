@@ -84,9 +84,6 @@ I then setup my RPi Zero that is actually running klipper to connect to this net
 You can use [this guide](https://www.tomshardware.com/reviews/raspberry-pi-headless-setup-how-to,6028.html) to
 configure headlesss SSH access.
 
-- TODO: Create mount for Pico that attaches to printer frame and find a 5V pin
-on the mainboard that can be used to power the Pico.
-
 
 ### Putting things together
 
@@ -161,12 +158,27 @@ Next I moved onto the wiring. I did not want to design a mount for all my indivi
 box that slides into the bottom frame that you can just shove all the wires and computers into and then seal up and never think
 about again.
 
+Something to note about this electronics box
+is that it needs to be installed *before* you
+mount the Z axis motors and the legs because
+it will be obstructed and difficult / impossible
+to push up from the bottom of the frame otherwise.
+
+![](images/IMG_2851.jpg)
+
+Wires for the Z axis motors can be routed
+through the holes adjacent to them. 
+
+Everything fits I promise!
+
 ![](images/IMG_2863.jpg)
 
-After verifying that everything seemed to be working I wired in the cooling fan, did some additional cable mangement and then sealed everthing up using the lid I designed for the electronics box. The links for both the box and lid are listed below.
+After verifying that everything seemed to be working I wired in the cooling fan, did some additional cable management and then sealed everything up using the lid I designed for the electronics box. I also threw in another 40 mm
+fan into the enclosure in an attempt to help 
+keep things a bit cooler in there. The links for both the box and lid are listed below.
 
-- [Electronics box](https://github.com/EthanHolleman/Rook-build/blob/main/ETH-STLs/electronicsBox.stl)
-- [Electronics box lid](https://github.com/EthanHolleman/Rook-build/blob/main/ETH-STLs/electronicsBoxLid.stl)
+- [Electronics box stl](https://github.com/EthanHolleman/Rook-build/blob/main/ETH-STLs/electronicsBox.stl)
+- [Electronics box lid stl](https://github.com/EthanHolleman/Rook-build/blob/main/ETH-STLs/electronicsBoxLid.stl)
 
 ![](images/IMG_2865.jpg)
 
@@ -176,9 +188,23 @@ with the Z offset in Klipper I was able to print a calibration cube.
 And with that my Rook build was complete. I really enjoyed putting this machine together and feel like I have a much deeper understanding of
 3D printers and the mechanics that allow them to function.
 
-![Rook first print video](https://www.youtube.com/watch?v=ggh4lNVPjAo)
 
-I posted my Rook to Rolohan's discord server and officially received serial number 27! So this is the 28th Rook to exist in the world (counting starts at 0). 
+![](images/IMG_2869.MOV.gif)
+
+I posted my Rook to Rolohan's discord server and officially received serial number 27! So this is the 28th Rook to exist in the world (counting starts at 0). Overall this was a very fun project and I would
+recommend Rook to anyone looking to try out building
+a printer from scratch but does not want to shell
+out the cash for a Voron type build. The mostly
+3D printed design and relatively low cost to build
+(mine came in at around 300 USD when all was said
+and done but that could definitely be powered due to
+some purchasing inefficiencies on my end) make this
+build low risk. An added bonus is that the small
+size and light weight means that you can fit
+this guy into your second carry on bag no problem.
+I fly home for Christmas with mine without any
+issue!
+
 
 
 
