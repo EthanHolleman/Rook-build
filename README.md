@@ -170,5 +170,17 @@ After verifying that everything seemed to be working I wired in the cooling fan,
 
 ![](images/IMG_2865.jpg)
 
+The only thing left to do at that point was to mount the part cooling fan and test everything out! After leveling the bed and fooling around
+with the Z offset in Klipper I was able to print a calibration cube.
+
+And with that my Rook build was complete. I really enjoyed putting this machine together and feel like I have a much deeper understanding of
+3D printers and the mechanics that allow them to function.
+
+![Rook first print video](https://www.youtube.com/watch?v=ggh4lNVPjAo)
+
+I posted my Rook to Rolohan's discord server and officially received serial number 27! So this is the 28th Rook to exist in the world (counting starts at 0). 
+
+
+
 
 
