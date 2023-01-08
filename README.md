@@ -145,3 +145,30 @@ I found this image of a general coreXY belting diagram to be very helpful.
 
 ![](https://i0.wp.com/3ddistributed.com/wp-content/uploads/2020/04/CoreXY-Kinematics.png?resize=768%2C610&ssl=1)
 
+After I had the belting figured out I started mounting the bed. I used a 150 mm piece of glass pane I had cut at
+a local hardware store with a PEI magnetic build plate as the print surface. 
+
+![](images/IMG_2856.jpg)
+
+I also designed some bed spring tensioning knobs that use the same threaded inserts as the rest of the build.
+Double sided tape did not seem like enough to keep the bed attached to the mounts so I just superglued
+these to the glass plate.
+
+I then realized that the 40 mm cooling fans I had were too large to fit the hot end mount. So I went into Fusion360 and designed a
+mount that would work with my hot end (CR-10 style) and a 40 mm fan. You can download the stl [at this link](https://github.com/EthanHolleman/Rook-build/blob/main/ETH-STLs/X_Carriage-40mm-extra-tall.stl).
+
+Next I moved onto the wiring. I did not want to design a mount for all my individual components so instead I designed an electronics
+box that slides into the bottom frame that you can just shove all the wires and computers into and then seal up and never think
+about again.
+
+![](images/IMG_2863.jpg)
+
+After verifying that everything seemed to be working I wired in the cooling fan, did some additional cable mangement and then sealed everthing up using the lid I designed for the electronics box. The links for both the box and lid are listed below.
+
+- [Electronics box](https://github.com/EthanHolleman/Rook-build/blob/main/ETH-STLs/electronicsBox.stl)
+- [Electronics box lid](https://github.com/EthanHolleman/Rook-build/blob/main/ETH-STLs/electronicsBoxLid.stl)
+
+![](images/IMG_2865.jpg)
+
+
+
